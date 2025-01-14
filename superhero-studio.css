@@ -1,0 +1,64 @@
+body {
+    background-color: black;
+}
+
+img {
+    /*For the responsiveness of the design across all device screens we use %age unit */
+    width: 27%;
+    /* width of each image */
+    /* 27*27*27 = 81% */
+    /* subtract width from 100% */
+    /* 100% - 81% = 19% */
+
+    height: 280px;
+    margin: 3%;
+    border-color: red;
+    border-left: 1.25px solid gold;
+    border-bottom: 1px solid gold;
+    transition: all 0.60s;
+}
+
+img:hover {
+    border-color: red;
+    border-radius: 50%;
+    opacity: 90%;
+    box-shadow: 0 5px 35px grey;
+}
+
+nav {
+    text-transform: uppercase;
+    width: 27%;
+    margin-left: 3%;
+    padding: 1.2em 0;
+    font-family: 'Rubik Glitch', cursive;
+    color: gold;
+    font-size: 1.5em;
+    transition: all 0.5s;
+}
+
+nav:hover {
+    transform: translateY(-0.5em);
+    border-bottom: 2px solid red;
+    background-image: url("https://images.unsplash.com/photo-1633218388467-539651dcf81f?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1332&q=80");
+    background-size: 450px 100px;
+    background-repeat: no-repeat;
+}
+
+section h1 {
+    background-color: black;
+    color: red;
+    padding: 0.7em;
+    width: 250px;
+    font-size: 0.75em;
+    text-align: center;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: normal;
+    transition: all 2s;
+}
+
+section h1:hover {
+    transform: scale(2);
+    color: gold;
+    box-shadow: 0 0.5em 0.5em -0.4em red;
+}
